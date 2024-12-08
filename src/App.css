@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Marko+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  background: linear-gradient(to bottom, #16191e, #31353e);
+  background-attachment: fixed;
+
+  overflow-x: hidden;
+}
+
+.wrapper {
+  position: relative;
+  width: 100vw;
+  max-width: 1900px;
+}
+
+.nav_link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.overlay::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}

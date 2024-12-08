@@ -1,0 +1,27 @@
+.home_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100%;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+
+.home_content h2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bca487;
+    -webkit-text-stroke: 1px black;
+}
+
+@media (max-width: 1000px) {
+    .home_content h2{
+        font-size: 29px;
+    }
+}

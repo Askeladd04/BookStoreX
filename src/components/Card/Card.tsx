@@ -55,6 +55,7 @@ const Card: FC<Props> = memo(({ book }) => {
     <div className={`card_wrapper`}>
       <Image
         src={book.image}
+        style={{width:'260px'}}
         alt="logo"
         className="card_image"
         onMouseEnter={() => {
